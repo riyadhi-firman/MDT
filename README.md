@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PT Mitra Data Technology (MDT) - Corporate Website
 
-## Getting Started
+Website perusahaan resmi untuk PT. Mitra Data Technology, penyedia solusi infrastruktur telekomunikasi dan *fiber optic backbone*. Proyek ini dibangun dengan antarmuka modern (Glassmorphism), performa tinggi, serta efek animasi interaktif menggunakan AnimeJS.
 
-First, run the development server:
+## ✨ Fitur Utama
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Desain Modern Premium**: Antarmuka berkelas *enterprise* dengan efek *Glassmorphism*, pantulan cahaya (*glowing orbs*), dan tema *Dark Mode Mesh Gradient*.
+- **Animasi Super Mulus**: Efek animasi interaktif pada *scroll* menggunakan **Anime.js** yang menggantikan Framer Motion untuk performa yang lebih presisi dan ringan.
+- **Dukungan Dark/Light Mode**: Website secara otomatis beradaptasi dengan preferensi mode warna pengguna atau dapat diubah secara manual dengan *toggle* di bilah navigasi.
+- **Responsif Sepenuhnya**: Tampilan sempurna pada ukuran layar apa pun, mulai dari perangkat seluler hingga layar desktop beresolusi tinggi.
+- **Performa Tinggi**: Dibangun di atas fondasi Next.js (App Router) untuk meminimalkan *loading time* dan optimisasi aset maksimal.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Teknologi yang Digunakan
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework Utama**: [Next.js 15](https://nextjs.org/) (React 19)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animasi**: [Anime.js v3.2.2](https://animejs.com/)
+- **Ikonografia**: [Lucide React](https://lucide.dev/)
+- **Bahasa**: TypeScript
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Memulai Pengembangan (Getting Started)
 
-## Learn More
+Ikuti langkah-langkah di bawah ini untuk menjalankan *server* pengembangan di komputer lokal Anda:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Instal dependensi**:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Jalankan *server* pengembangan**:
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Buka [http://localhost:3000](http://localhost:3000) pada browser Anda untuk melihat hasilnya.
 
-## Deploy on Vercel
+## 📂 Struktur Proyek
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `/src/app` - Halaman rute utama (Next.js App Router) dan tata letak global.
+- `/src/components/sections` - Komponen khusus untuk setiap bagian beranda (Hero, Layanan, Infrastruktur, Peta Cakupan, dll.).
+- `/src/components/ui` - Komponen *User Interface* umum seperti Tombol, Kartu, atau penampung Section.
+- `/src/hooks` - *Custom Hooks* React (contoh: `useInView` untuk deteksi *scroll*).
+- `/src/lib` - Utilitas bantu (*helper functions*).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Lisensi
+
+Hak Cipta © 2026 PT. Mitra Data Technology. Seluruh hak cipta dilindungi undang-undang.
